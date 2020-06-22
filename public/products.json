@@ -1,0 +1,98 @@
+{
+    "success": true,
+    "total": 524,
+    "per_page": 10,
+    "page": 1,
+    "items": [
+        {
+            "id": 1,
+            "title": "3/4 LA Electric Guitar by Gear4music, Black",
+            "code": "7HC",
+            "image": "https://d1aeri3ty3izns.cloudfront.net/media/23/235459/600/preview_3.jpg",
+            "price": 89.99,
+            "stock": 25,
+            "delivery_estimate": "2020-06-12"
+        },
+        {
+            "id": 2,
+            "title": "3/4 LA Left Handed Electric Guitar by Gear4music, Black",
+            "code": "8VQ",
+            "image": "https://d1aeri3ty3izns.cloudfront.net/media/32/327413/600/preview_2.jpg",
+            "price": 89.99,
+            "stock": 19,
+            "delivery_estimate": "2020-06-12"
+        },
+        {
+            "id": 3,
+            "title": "LA Electric Guitar by Gear4music, Blue",
+            "code": "8",
+            "image": "https://d1aeri3ty3izns.cloudfront.net/media/56/563243/600/preview.jpg",
+            "price": 99.99,
+            "stock": 0,
+            "delivery_estimate": "2020-07-12"
+        },
+        {
+            "id": 4,
+            "title": "Knoxville Electric Guitar by Gear4music, Sunburst",
+            "code": "1MR9",
+            "image": "https://d1aeri3ty3izns.cloudfront.net/media/22/221982/600/preview_2.jpg",
+            "price": 129.99,
+            "stock": 56,
+            "delivery_estimate": "2020-06-12"
+        },
+        {
+            "id": 4,
+            "title": "LA Select Electric Guitar HSS by Gear4music, Trans Red",
+            "code": "1L1L",
+            "image": "https://d1aeri3ty3izns.cloudfront.net/media/57/571967/1200/preview.jpg",
+            "price": 74.99,
+            "stock": 4,
+            "delivery_estimate": "2020-06-12"
+        },
+        {
+            "id": 1,
+            "title": "3/4 LA Electric Guitar by Gear4music, Black",
+            "code": "7HC",
+            "image": "https://d1aeri3ty3izns.cloudfront.net/media/23/235459/600/preview_3.jpg",
+            "price": 89.99,
+            "stock": 25,
+            "delivery_estimate": "2020-06-12"
+        },
+        {
+            "id": 2,
+            "title": "3/4 LA Left Handed Electric Guitar by Gear4music, Black",
+            "code": "8VQ",
+            "image": "https://d1aeri3ty3izns.cloudfront.net/media/32/327413/600/preview_2.jpg",
+            "price": 89.99,
+            "stock": 19,
+            "delivery_estimate": "2020-06-12"
+        },
+        {
+            "id": 3,
+            "title": "LA Electric Guitar by Gear4music, Blue",
+            "code": "8",
+            "image": "https://d1aeri3ty3izns.cloudfront.net/media/56/563243/600/preview.jpg",
+            "price": 99.99,
+            "stock": 0,
+            "delivery_estimate": "2020-07-12"
+        },
+        {
+            "id": 4,
+            "title": "Knoxville Electric Guitar by Gear4music, Sunburst",
+            "code": "1MR9",
+            "image": "https://d1aeri3ty3izns.cloudfront.net/media/22/221982/600/preview_2.jpg",
+            "price": 129.99,
+            "stock": 56,
+            "delivery_estimate": "2020-06-12"
+        },
+        {
+            "id": 4,
+            "title": "LA Select Electric Guitar HSS by Gear4music, Trans Red",
+            "code": "1L1L",
+            "image": "https://d1aeri3ty3izns.cloudfront.net/media/57/571967/1200/preview.jpg",
+            "price": 74.99,
+            "stock": 4,
+            "delivery_estimate": "2020-06-12"
+        }
+    ]
+}
