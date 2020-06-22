@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { ProductTile } from "../ProductTile/ProductTile";
 
 export const ProductListing = () => {
   const [data, setData] = useState({});
@@ -11,5 +12,15 @@ export const ProductListing = () => {
 
   console.log(data.items);
 
-  return <h1>hello</h1>;
+  // const productSet = data.items.map((item) => {
+  //   if (item.stock > 20) {
+  //     return <Product key={data.Reference} data={data} />;
+  //   }
+  // });
+
+  return (
+    <>
+      <ProductTile />
+    </>
+  );
 };
