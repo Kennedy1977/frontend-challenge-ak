@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import { ProductListing } from "./components/ProductListing/ProductListing";
 import "./index.scss";
 
@@ -8,11 +9,12 @@ const addToBasket = (id) => {
 };
 
 const init = () => {
-  const listingsPage = document.getElementById("container");
-
-  if (listingsPage) {
-    ReactDOM.render(<ProductListing addToBasket={addToBasket} />, listingsPage);
-  }
+  ReactDOM.render(
+    <Router>
+      <ProductListing addToBasket={addToBasket} />
+    </Router>,
+    document.getElementById("container")
+  );
 };
 
 document.addEventListener("DOMContentLoaded", init);

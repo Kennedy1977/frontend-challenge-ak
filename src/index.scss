@@ -1,3 +1,68 @@
+:root {
+  --g4m-orange: #f2811e;
+  --g4m-grey: #434649;
+  --white: #fff;
+}
 
-$g4m-orange: #f2811e;
-$g4m-grey: #434649;
+* {
+  box-sizing: border-box; // must have for responsive
+}
+
+body {
+  font-family: sans-serif; // removed arial as not available as standard on mac / linux sans-serif defaults to OS default
+  font-size: 100%; // reset back due to 100% to enable font-reszing and accessibility
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 30px 0;
+  text-align: center;
+}
+
+footer {
+  background: #434649;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+header a.logo img {
+  height: 100px;
+}
+
+nav {
+  background: #434649;
+  text-align: center;
+}
+
+nav ul,
+nav ul li {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  display: inline-block;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: #f2811e;
+}
+
+#container {
+  padding: 100px 0;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
